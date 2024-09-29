@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Nuxt 入门教程</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta name="description" content="Description" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+		<link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css" />
+	</head>
+	<body>
+		<div id="app">Please wait...</div>
+		<script>
+			window.$docsify = {
+				el: '#app',
+				name: 'Nuxt 入门教程',
+				// 右上角仓库
+				repo: 'https://github.com/ly8529/nuxt-ts-demo',
+				// 首页
+				coverpage: false,
+				// 顶部导航
+				loadNavbar: true,
+				// 侧边导航
+				loadSidebar: true,
+				// 首页
+				homepage: 'guide.md',
+
+				// 全文搜索
+				search: {
+					maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+					paths: 'auto',
+					placeholder: '输入搜索',
+					depth: 6,
+					noData: '没找到啊!'
+				},
+
+				// 拷贝到剪切板
+				copyCode: {
+					buttonText: '点击复制',
+					errorText: '复制出错',
+					successText: '复制成功'
+				},
+
+				// 分页器配置
+				pagination: {
+					previousText: '上一章节',
+					nextText: '下一章节',
+					crossChapter: true
+				},
+				// 404
+				notFoundPage: true,
+				// UML插件配置
+				skin: 'default',
+				toc: {
+					scope: '.markdown-section',
+					headings: 'h1, h2, h3, h4, h5, h6',
+					title: '目录'
+				}
+			}
+		</script>
+		<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+		<!-- 全文搜索插件 -->
+		<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+		<!-- 支持emoji -->
+		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+		<!-- 图片放大 -->
+		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+		<!-- 复制到粘贴板 -->
+		<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+
+		<!-- 在git编辑 -->
+		<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+		<!-- 分页插件 -->
+		<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+		<!-- UML 插件 -->
+		<script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+		<!-- 目录插件 -->
+		<script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+
+		<!-- 代码高亮插件 -->
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-basic.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
+		<script src="//unpkg.com/prismjs/components/prism-html.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-css.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-less.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-sass.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-brightscript.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-stylus.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-typescript.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-tsx.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-jsx.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-bash.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-wiki.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-yaml.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/components/prism-python.min.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.24.0/components/prism-json.min.js"></script>
+	</body>
+</html>

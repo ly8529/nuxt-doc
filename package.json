@@ -1,0 +1,16 @@
+{
+	"name": "nuxt-doc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "docsify serve src --open"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ly8529/nuxt-ts-demo"
+	},
+	"keywords": [],
+	"author": "ly8529",
+	"license": "UNLICENSED"
+}
